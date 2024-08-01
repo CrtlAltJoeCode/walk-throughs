@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Walk-Throughs',
+  tagline: 'CtrlAltJoe',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -20,8 +20,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'ctrlaltjoecode', // Usually your GitHub org/user name.
+  projectName: 'Walk-Throughs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -33,6 +33,16 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  export default {
+    // ...
+    url: 'https://ctrlaltjoecode.github.io', // Your website URL
+    baseUrl: '/',
+    projectName: 'endiliey.github.io',
+    organizationName: 'CtrlAltJoe',
+    trailingSlash: true,
+    // ...
+  };
 
   presets: [
     [
