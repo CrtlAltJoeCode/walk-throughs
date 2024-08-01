@@ -42,7 +42,7 @@ const config = {
     organizationName: 'CtrlAltJoe',
     trailingSlash: true,
     // ...
-  };
+    };
 
   presets: [
     [
