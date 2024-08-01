@@ -16,7 +16,7 @@ const config = {
   url: 'https://crtlaltjoecode.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/walk-throughs/docs/build/index.html/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -37,8 +37,8 @@ const config = {
   export default {
     // ...
     url: 'https://ctrlaltjoecode.github.io', // Your website URL
-    baseUrl: '/',
-    projectName: 'endiliey.github.io',
+    baseUrl: '/walk-throughs/docs/build/index.html/',
+    projectName: 'ctrlaltjoecode.github.io',
     organizationName: 'CtrlAltJoe',
     trailingSlash: true,
     // ...
